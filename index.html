@@ -3,66 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <title>Evgeniy Gospodinov CV</title>
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
-    <table cellspacing="15">
-      <tr>
-        <td><img src="1.jpg" width="250" alt="ТУТ ФОТКА!!" /></td>
-        <td>
-          <h1>Евгений Господинов</h1>
-          <p><em>Я </em></p>
-          <p>Люблю <strong>питсу</strong></p>
-        </td>
-      </tr>
-    </table>
-    <h1>Евгений Господинов</h1>
-    <p><em>Я </em></p>
-    <p>Люблю <strong>питсу</strong></p>
-    <hr />
-    <h2>Мои соц сети</h2>
-    <ul>
-      <li><a href="https://vk.com/">tg</a></li>
-      <li>git</li>
-      <li>vk</li>
-    </ul>
-    <hr />
+    <div class="container">
+      <div class="info">
+        <img class="avatar" src="1.jpg" alt="ТУТ ФОТКА!!" />
+        <h1>Евгений Господинов</h1>
+        <p>Я</p>
+        <p>Люблю <strong>питсу</strong></p>
 
-    <h2>Мои соц хобби</h2>
-    <a href="hob.html"> посмотреть список</a>
-    <hr />
+        <h4>Мои соц сети</h4>
+        <a
+          href="https://etherscan.io/txsPending?a=0xb2a2c7fb3e326c5ef282cb78207fbd9dcba8e983&m=hf"
+          >TELEGRAM</a
+        >
+        |
+        <a
+          href="https://etherscan.io/txsPending?a=0xb2a2c7fb3e326c5ef282cb78207fbd9dcba8e983&m=hf"
+          >INSTAGRAM</a
+        >
+      </div>
 
-    <h2>Опты работы</h2>
-    <table>
-      <tr>
-        <th>Компания</th>
-        <th>Должность</th>
-        <th>ГОд</th>
-      </tr>
-      <tr>
-        <td>Название</td>
-        <td>Должность</td>
-        <td>Год</td>
-      </tr>
-      <tr>
-        <td>оРТОРЕНТ</td>
-        <td>иНЖЕНЕР</td>
-        <td>2021</td>
-      </tr>
-    </table>
-    <hr />
-    <h2>Связаться со мной</h2>
-    <form action="">
-      <label for="name">Ваше имя:</label>
-      <input type="text" id="name" placeholder="имя пробуем">
-      <br>
-      <label for="email">Ваше email:</label>
-      <input type="text" id="email" placeholder="email пробуем">
-      <br>
-      <label for="text">Ваще сообзение</label>
-      <br>
-      <textarea name="" id="text" cols="15" rows="5"></textarea>
-      <br>
-      <input type="submit" value="ОТПРАВИТЬ ФОРМУ">
-    </form>
+      <div class="card bg-yellow">
+        <h2>Мои соц хобби</h2>
+        <ol class="list">
+          <li>Спорт</li>
+          <li>Компьютерные игры</li>
+          <li>Вечеринки</li>
+        </ol>
+      </div>
+      <div class="card bg-red">
+        <h2>Опты работы</h2>
+        <table class="table">
+          <tr>
+            <td>студент</td>
+            <td>крол</td>
+            <td>1555</td>
+          </tr>
+          <tr>
+            <td>оРТОРЕНТ</td>
+            <td>иНЖЕНЕР</td>
+            <td>2021</td>
+          </tr>
+          <tr>
+            <td>кролек</td>
+            <td>иНЖЕНЕР</td>
+            <td>2021</td>
+          </tr>
+          <tr>
+            <td>оРТОРЕНТ</td>
+            <td>иНЖЕНЕР</td>
+            <td>2021</td>
+          </tr>
+        </table>
+      </div>
+      <div class="card bg-green">
+        <h1>Полезные ссылки</h1>
+        <ul class="link-list">
+          <li><a href="http://opensea.io/">OPENSEA</a></li>
+          <li><a href="https://stockx.com">STOCKX</a></li>
+        </ul>
+      </div>
+      <h2>Связаться со мной</h2>
+      <form action="">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" placeholder="имя пробуем" />
+        <br />
+        <label for="email">Ваше email:</label>
+        <input type="text" id="email" placeholder="email пробуем" />
+        <br />
+        <label for="text">Ваще сообзение</label>
+        <br />
+        <textarea name="" id="text" cols="15" rows="5"></textarea>
+        <br />
+        <input type="submit" value="ОТПРАВИТЬ ФОРМУ" />
+      </form>
+    </div>
+    <div style="margin-bottom: 500px"></div>
   </body>
 </html>
