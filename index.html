@@ -9,22 +9,22 @@
     <div class="container">
       <div class="info">
         <img class="avatar" src="1.jpg" alt="ТУТ ФОТКА!!" />
-        <h1>Евгений Господинов</h1>
-        <p>Я</p>
-        <p>Люблю <strong>питсу</strong></p>
-
-        <h4>Мои соц сети</h4>
-        <a
-          href="https://etherscan.io/txsPending?a=0xb2a2c7fb3e326c5ef282cb78207fbd9dcba8e983&m=hf"
-          >TELEGRAM</a
-        >
-        |
-        <a
-          href="https://etherscan.io/txsPending?a=0xb2a2c7fb3e326c5ef282cb78207fbd9dcba8e983&m=hf"
-          >INSTAGRAM</a
-        >
+        <div class="info-text">
+          <h1>Евгений Господинов</h1>
+          <p>Я</p>
+          <p>Люблю <strong>питсу</strong></p>
+          <h4>Мои соц сети</h4>
+          <a
+            href="https://etherscan.io/txsPending?a=0xb2a2c7fb3e326c5ef282cb78207fbd9dcba8e983&m=hf"
+            >TELEGRAM</a
+          >
+          |
+          <a
+            href="https://etherscan.io/txsPending?a=0xb2a2c7fb3e326c5ef282cb78207fbd9dcba8e983&m=hf"
+            >INSTAGRAM</a
+          >
+        </div>
       </div>
-
       <div class="card bg-yellow">
         <h2>Мои соц хобби</h2>
         <ol class="list">
@@ -65,21 +65,31 @@
           <li><a href="https://stockx.com">STOCKX</a></li>
         </ul>
       </div>
-      <h2>Связаться со мной</h2>
-      <form action="">
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" placeholder="имя пробуем" />
-        <br />
-        <label for="email">Ваше email:</label>
-        <input type="text" id="email" placeholder="email пробуем" />
-        <br />
-        <label for="text">Ваще сообзение</label>
-        <br />
-        <textarea name="" id="text" cols="15" rows="5"></textarea>
-        <br />
-        <input type="submit" value="ОТПРАВИТЬ ФОРМУ" />
-      </form>
+      <div class="contact">
+        <h2>Связаться со мной</h2>
+        <form action="">
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Ваше имя:</label>
+              <input type="text" id="name" placeholder="имя пробуем" />
+            </div>
+            <div class="form-group">
+              <label for="email">Ваше email:</label>
+              <input type="text" id="email" placeholder="email пробуем" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="text">Ваще сообщение:</label>
+            <textarea name="" id="text" cols="15 " rows="3"></textarea>
+          </div>
+          <input class="btn" type="submit" value="ОТПРАВИТЬ ФОРМУ" />
+        </form>
+      </div>
+      <div class="position">
+        <div class="box"></div>
+      </div>
     </div>
+
     <div style="margin-bottom: 500px"></div>
   </body>
 </html>
